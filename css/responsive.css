@@ -139,9 +139,10 @@
 	}
 
 	.nav-outer .mobile-nav-toggler{
-		display: block;
-		margin: 0;
+		display: flex;
+		width: 100%;
 		padding: 24px 0;
+		justify-content: space-between;
 	}
 	
 	.main-header .header-upper .nav-outer:before{
@@ -163,8 +164,11 @@
 	}
 	
 	.main-header .nav-outer{
-		width:auto;
-		float:right;	
+		width:100%;	
+	}
+
+	.main-header .header-upper{
+		padding: 0 2rem;
 	}
 	
 	.banner-carousel .slide-item,
@@ -272,7 +276,6 @@
 	}
 	
 	.main-footer .footer-bottom .social-icons{
-		padding-top:20px;
 		text-align:center;	
 	}
 	
@@ -296,7 +299,7 @@
 	
 	.featured-block .inner-box{
 		padding-left:0;
-		text-align:center;
+		text-align:left;
 	}
 	
 	.featured-block .inner-box .icon-box{
